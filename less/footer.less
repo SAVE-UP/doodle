@@ -2,4 +2,74 @@
   background: @footer-bg;
   padding-top: 150px;
   z-index: 1;
-}
+
+  .footer__content {
+    margin: 46px 4%;
+
+    .footer__logo {
+      width: 48.5%;
+    }
+  }
+
+  .footer__contact__info {
+    margin: 30px 0 0;
+
+    .footer__location {
+      display: flex;
+
+      .contact__info__img {
+        margin: 12px 0 0;
+        width: 55px;
+        height: auto;
+      }
+
+      .contact__info__text {
+        margin-left: 8%;
+        font-size: 2.2rem;
+        line-height: 1.55;
+        color: @footer-color;
+      }
+    }
+
+    .footer__phone {
+      display: flex;
+      margin-top: 23px;
+
+      .contact__info__img {
+        margin: 12px 0 0;
+        width: 28px;
+        height: auto;
+      }
+
+      .contact__info__text {
+        margin: 8px 0 0 6.5%;
+        font-size: 2.2rem;
+        line-height: 1.55;
+        color: @footer-color;
+      }
+    }
+
+    .footer__email {
+      display: flex;
+      margin-top: 25px;
+
+      .contact__info__img {
+        margin: 12px 0 0;
+        width: 28px;
+        height: auto;
+      }
+
+      .contact__info__text {
+        margin: 8px 0 0 6.5%;
+        font-size: 2.2rem;
+        line-height: 1.55;
+        color: @footer-color;
+      }
+    }
+  } // Footer content
+
+  .footer__site__nav {
+    display: flex;
+    flex-direction: column;
+  } // Footer site nav
+} // Footer
