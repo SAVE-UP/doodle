@@ -232,11 +232,15 @@ img {
 .home__header .cta__img {
   margin: 75px 10% 45px;
 }
+.home__content {
+  position: relative;
+  border: 1px solid white;
+}
 .home__content .home__content__top {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 130px 5.5% 0;
+  margin: 85px 5.5% 0;
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -286,7 +290,7 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 60px 5.5% 50px;
+  margin: 60px 5.5% 320px;
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -306,4 +310,56 @@ img {
   text-align: center;
   font-size: 2rem;
   line-height: 1.5;
+}
+.home__content .main__content__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 94%;
+  margin: -94px 3%;
+  border-radius: 20px;
+  background: #ffffff;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  z-index: 10;
+}
+.home__content .main__content__cta .main__content__cta__title {
+  font-size: 2.6rem;
+  margin: 68px 0 0;
+}
+.home__content .main__content__cta .main__content__cta__btn {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 40px 0 55px;
+  width: 56%;
+  height: 56px;
+  border-radius: 30px;
+  background: #ff52bf;
+  color: #ffffff;
+  border: 1px solid #ff52bf;
+  -webkit-box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
+}
+.home__content .main__content__cta .main__content__cta__btn:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.footer {
+  background: #002129;
+  padding-top: 150px;
+  z-index: 1;
 }
