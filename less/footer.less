@@ -71,8 +71,7 @@
   } // Footer content
 
   .footer__site__nav {
-    display: flex;
-    flex-direction: column;
+    .flex(flex-start, flex-start, no-wrap, column);
     margin: 85px 4% 0;
 
     .footer__nav__link {
@@ -88,9 +87,8 @@
   } // Footer site nav
 
   .footer__social__links {
-    display: flex;
+    .flex(center);
     width: 99%;
-    justify-content: center;
     margin: 45px 0 0 1%;
 
     a {
@@ -132,8 +130,7 @@
   } // Footer social links
 
   .footer__copyright {
-    display: flex;
-    justify-content: center;
+    .flex(center);
     padding: 36px 0 69px;
 
     .copyright__text {

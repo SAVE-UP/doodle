@@ -18,9 +18,7 @@
 
     .cta__btn {
       display: inline-block;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      .flex(center, center);
       text-decoration: none;
       font-size: 1.7rem;
       font-weight: 700;
@@ -53,9 +51,7 @@
   border: 1px solid white;
 
   .home__content__top {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    .flex(center, center);
     margin: 85px 5.5% 0;
     border-radius: 20px;
     -moz-border-radius: 20px;
@@ -82,9 +78,7 @@
   }
 
   .home__content__middle {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    .flex(flex-start, center, no-wrap, column);
     margin: 60px 5.5% 0;
     border-radius: 20px;
     -moz-border-radius: 20px;
@@ -111,9 +105,7 @@
   }
 
   .home__content__bottom {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    .flex(flex-start, center, no-wrap, column);
     margin: 60px 5.5% 320px;
     border-radius: 20px;
     -moz-border-radius: 20px;
@@ -140,9 +132,7 @@
   }
 
   .main__content__cta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .flex(flex-start, center, no-warp, column);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -165,9 +155,7 @@
 
     .main__content__cta__btn {
       display: inline-block;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      .flex(center, center);
       text-decoration: none;
       font-size: 1.4rem;
       font-weight: 700;
