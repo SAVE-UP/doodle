@@ -3,9 +3,18 @@
   display: flex;
   justify-content: space-between;
 
+  @media @desktop {
+    margin: 49px 5.5%;
+  }
+
   .huddle-logo {
     margin-top: 3px;
     width: 61%;
+
+    @media @desktop {
+      margin-top: 7px;
+      width: 84%;
+    }
   }
 
   .navbar-btn {
@@ -26,6 +35,15 @@
 
     &:hover {
       border: 1px solid @navbar-link-color;
+    }
+
+    @media @desktop {
+      width: 200px;
+      padding: 0;
+      height: 47px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
