@@ -162,7 +162,7 @@ img {
   margin: 0 auto;
 }
 .navbar {
-  margin: 35px 4% 0;
+  padding: 35px 4% 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -218,8 +218,25 @@ img {
     flex-direction: row;
   }
 }
+.header__bg-img {
+  width: 100%;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
 .home__header {
-  margin: 115px 0 0;
+  padding: 115px 0 0;
+}
+@media (min-width: 800px) {
+  .home__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 165px;
+  }
 }
 .home__header .cta__content {
   margin: 0 10%;

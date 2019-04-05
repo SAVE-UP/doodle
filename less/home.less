@@ -1,5 +1,18 @@
+.header__bg-img {
+  width: 100%;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
 .home__header {
-  margin: 115px 0 0;
+  padding: 115px 0 0;
+
+  @media @desktop {
+    .flex(flex-start, flex-start, wrap, row);
+    margin: 165px;
+  }
 
   .cta__content {
     margin: 0 10%;
