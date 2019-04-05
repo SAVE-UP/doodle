@@ -483,8 +483,7 @@ img {
 @media (min-width: 800px) {
   .home__content .home__content__middle {
     margin: 40px 7% 0;
-    padding: 50px 0;
-    padding-bottom: 53px;
+    padding: 50px 0 68px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -566,20 +565,68 @@ img {
   -webkit-box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
   box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
 }
+@media (min-width: 800px) {
+  .home__content .home__content__bottom {
+    margin: 40px 7% 300px;
+    padding: 50px 0;
+    padding-bottom: 53px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
 .home__content .home__content__bottom .content__bottom__img {
   margin-top: 90px;
   width: 70%;
+}
+@media (min-width: 800px) {
+  .home__content .home__content__bottom .content__bottom__img {
+    margin: 15px 2.5% 0 0;
+    width: 33%;
+  }
+}
+@media (min-width: 800px) {
+  .home__content .home__content__bottom div {
+    width: 50%;
+    margin: 0 0 0 9.5%;
+  }
 }
 .home__content .home__content__bottom div .content__bottom__title {
   margin-top: 95px;
   width: 100%;
   text-align: center;
 }
+@media (min-width: 800px) {
+  .home__content .home__content__bottom div .content__bottom__title {
+    margin-top: 25px;
+    text-align: left;
+  }
+}
 .home__content .home__content__bottom div .content__bottom__text {
   margin: 25px 12% 45px;
   text-align: center;
   font-size: 2rem;
   line-height: 1.5;
+}
+@media (min-width: 800px) {
+  .home__content .home__content__bottom div .content__bottom__text {
+    margin: 20px 0 0;
+    text-align: left;
+    font-size: 1.8rem;
+    width: 82%;
+  }
 }
 .home__content .main__content__cta {
   display: -webkit-box;
