@@ -86,7 +86,7 @@
     margin: 75px 10% 45px;
 
     @media @desktop {
-      margin: 16px 5.5% 0 4%;
+      margin: 16px 5.5% 60px 4%;
     }
   }
 }
@@ -105,20 +105,52 @@
     -moz-box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
     box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
 
+    @media @desktop {
+      margin: 159px 7% 0;
+      padding-bottom: 53px;
+      .flex(space-between, flex-start, no-wrap, row-reverse);
+    }
+
     .content__top__img {
       margin-top: 80px;
       width: 70%;
+
+      @media @desktop {
+        margin: 50px 2.5% 0 0;
+        width: 33%;
+      }
     }
 
-    .content__top__title {
-      margin-top: 84px;
-    }
+    div {
+      @media @desktop {
+        width: 50%;
+        margin: 85px 0 0 9.5%;
+      }
 
-    .content__top__text {
-      margin: 25px 10% 40px;
-      text-align: center;
-      font-size: 2rem;
-      line-height: 1.5;
+      .content__top__title {
+        margin-top: 84px;
+        width: 100%;
+        text-align: center;
+
+        @media @desktop {
+          margin-top: 75px;
+          text-align: left;
+        }
+      }
+
+      .content__top__text {
+        margin: 25px 10% 40px;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.5;
+
+        @media @desktop {
+          margin: 20px 0 0;
+          text-align: left;
+          font-size: 1.8rem;
+          width: 82%;
+        }
+      }
     }
   }
 
@@ -139,6 +171,8 @@
 
     .content__middle__title {
       margin-top: 107px;
+      width: 100%;
+      text-align: center;
     }
 
     .content__middle__text {
@@ -166,6 +200,8 @@
 
     .content__bottom__title {
       margin-top: 95px;
+      width: 100%;
+      text-align: center;
     }
 
     .content__bottom__text {
