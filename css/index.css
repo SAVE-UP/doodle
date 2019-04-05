@@ -171,7 +171,7 @@ img {
 }
 @media (min-width: 800px) {
   .navbar {
-    margin: 49px 5.5%;
+    padding: 49px 5.5%;
   }
 }
 .navbar .huddle-logo {
@@ -225,31 +225,57 @@ img {
   background-position: center;
   background-size: 100% 100%;
 }
+@media (min-width: 800px) {
+  .header__bg-img {
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-size: auto 100%;
+  }
+}
 .home__header {
-  padding: 115px 0 0;
+  padding-top: 115px;
 }
 @media (min-width: 800px) {
   .home__header {
+    padding-top: 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     flex-direction: row;
-    margin: 165px;
   }
 }
 .home__header .cta__content {
   margin: 0 10%;
 }
+@media (min-width: 800px) {
+  .home__header .cta__content {
+    margin: 110px 0 110px 5.5%;
+    width: 54%;
+  }
+}
 .home__header .cta__content .cta__title {
   text-align: center;
   line-height: 1.5;
+}
+@media (min-width: 800px) {
+  .home__header .cta__content .cta__title {
+    text-align: left;
+    width: 100%;
+    font-size: 4.1rem;
+  }
 }
 .home__header .cta__content .cta__text {
   margin-top: 27px;
   font-size: 2.2rem;
   line-height: 1.55;
   text-align: center;
+}
+@media (min-width: 800px) {
+  .home__header .cta__content .cta__text {
+    text-align: left;
+    font-size: 1.8rem;
+    width: 100%;
+  }
 }
 .home__header .cta__content .cta__btn {
   display: inline-block;
@@ -277,8 +303,20 @@ img {
   color: #000000;
   border: 1px solid #000000;
 }
+@media (min-width: 800px) {
+  .home__header .cta__content .cta__btn {
+    margin: 33px 0 0;
+    width: 281px;
+    font-size: 1.4rem;
+  }
+}
 .home__header .cta__img {
   margin: 75px 10% 45px;
+}
+@media (min-width: 800px) {
+  .home__header .cta__img {
+    margin: 16px 5.5% 0 4%;
+  }
 }
 .home__content {
   position: relative;
