@@ -2,6 +2,10 @@
 
 This fictitious company landing page was done for practice in vanilla HTML and CSS. It uses the LESS preprocessor for styling.
 
+## Screenshot
+
+![Huddle Company Landing Page Screenshot](./design/readme-screenshot.png)
+
 ## Table of Contents
 
 - [Screenshot](#screenshot)
@@ -9,10 +13,6 @@ This fictitious company landing page was done for practice in vanilla HTML and C
 - [Stack](#stack)
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
-
-## Screenshot
-
-![Huddle Company Landing Page Screenshot](./design/readme-screenshot.png)
 
 ## Getting Started
 
