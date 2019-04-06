@@ -998,12 +998,14 @@ img {
 }
 .footer .social__copyright .footer__copyright {
   padding: 36px 0 69px;
+  text-align: center;
 }
 @media (min-width: 800px) {
   .footer .social__copyright .footer__copyright {
     padding: 165px 0 0;
     margin-left: 60%;
     width: 100%;
+    text-align: left;
   }
 }
 .footer .social__copyright .footer__copyright .copyright__text {
