@@ -1,4 +1,4 @@
-# Huddle Company Landing Page
+# Sample startup Compagny Landing Page
 
 This fictitious company landing page was done for practice in vanilla HTML and CSS. It uses the LESS preprocessor for styling.
 
